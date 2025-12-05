@@ -1,0 +1,13 @@
+@import "tailwindcss";
+@theme {
+  --animate-spin-slow: spin 3s linear infinite;
+}
+
+/* Scrollbar invisible */
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+.scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
